@@ -1,0 +1,31 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.4);
+    font-size: 25px;
+    font-weight: bolder;
+    margin: 0px 0px 20px 0px;
+    border-radius: 8px;
+}
+li {
+    float: left;
+}
+a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+a:hover {
+    background-color: rgba(0, 0, 0, 1.8);
+}
+.nav {
+    position: fixed;
+    width: 99%;
+    margin-top: 0px;
+}
+#k{
+    float: right;
+}

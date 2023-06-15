@@ -1,0 +1,150 @@
+#hphoto {
+    height: 200px;
+    /* border: 2px solid #000000; */
+
+}
+
+img {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}
+
+#main {
+    /*---------------------------------------------------------------------------------------------*/ background-color: #c0c0c0;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+    padding: 10px;
+    width: 800px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 2px solid #ffffff;
+    font-size: x-large;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px rgb(78, 77, 77);
+    background-color: rgba(192, 192, 192, 0.7);
+}
+
+.main1,
+.main2,
+.main3,
+.main4,
+.main5 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    display: grid;
+    grid-template-columns: auto;
+}
+
+input {
+    height: 30px;
+    width: 140%;
+    border-radius: 10px;
+    outline: none;
+    box-shadow: 5px 5px 5px rgb(78, 77, 77);
+}
+
+.main1 span {
+    padding: 10px;
+}
+
+.main1 {
+    border-right: 2px solid;
+}
+
+.main2 span {
+    padding: 10px;
+}
+
+.main3 span {
+    padding: 10px;
+}
+
+.main3 {
+    border-bottom: 2px solid;
+    border-top: 2px solid;
+    padding-bottom: 20px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.main5 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid;
+}
+
+.cost input {
+    width: 100px;
+    box-shadow: none;
+    margin-top: 20px;
+    /*---------------------------------------------------------------------------------------------*/ background-color: #c0c0c0;
+    border: none;
+}
+
+.price {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid;
+    padding: 10px;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+body {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+     background-color: #edd6f6;
+}
+
+.but {
+    border-radius: 4px;
+    background-color: #00BCC4;
+    border: 2px solid #ffffff;
+    text-align: center;
+    height: 50px;
+    width: 200px;
+    transition: 0.5s;
+    font-size: large;
+    margin-top: 10px;
+    box-shadow: 5px 5px 5px rgb(78, 77, 77);
+}
+
+.but span {
+    position: relative;
+    transition: 0.5s;
+}
+
+.but span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.but:hover span {
+    padding-right: 25px;
+}
+
+.but:hover span:after {
+    opacity: 1;
+    right: 0;
+}

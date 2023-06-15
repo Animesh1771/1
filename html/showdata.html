@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking Details</title>
+    <link rel="stylesheet" href="../css/nav.css">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <div class="nav">
+        <ul style="list-style-type: none;">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="Name">Name</a></li>
+            <li><a href="contact">Contact</a></li>
+            <li><a href="showdata.html">Status</a></li>
+            <span id="k">
+                <!-- <li><a href="" id="logoutbut">logout</a></li>
+                        <li><a href="login.html" id="login1">Login</a></li>
+                        <li><a href="signup.html" id="sign1">Signup</a></li> -->
+            </span>
+        </ul>
+    </div>
+
+
+    <div class="container mx-auto" >
+        <h1 class="text-center text-4xl text-indigo-400 py-12" id="greeting"></h1>
+        <div class="overflow-x-auto">
+            <table class="min-w-full divide-y divide-gray-200 border border-gray-200">
+                <thead class="bg-gray-800">
+                    <tr>
+                        <th class="px-4 py-3 text-center text-xs font-medium text-white uppercase tracking-wider">
+                            Check-in Date</th>
+                        <th class="px-4 py-3 text-center text-xs font-medium text-white uppercase tracking-wider">
+                            Check-out Date</th>
+                        <th class="px-4 py-3 text-center text-xs font-medium text-white uppercase tracking-wider">
+                            Booking Time</th>
+                        <th class="px-4 py-3 text-center text-xs font-medium text-white uppercase tracking-wider">
+                            Booking Date</th>
+                        <th class="px-4 py-3 text-center text-xs font-medium text-white uppercase tracking-wider">Status
+                        </th>
+                        <th class="px-4 py-3 text-center text-xs font-medium text-white uppercase tracking-wider">No.of
+                            Rooms</th>
+                        <th class="px-4 py-3 text-center text-xs font-medium text-white uppercase tracking-wider">Total
+                            Bill</th>
+                        <th class="px-4 py-3 text-center text-xs font-medium text-white uppercase tracking-wider">UPDATE
+                        </th>
+                        <th class="pr-6 pl-4 py-3 text-center text-xs font-medium text-white uppercase tracking-wider">
+                            DELETE</th>
+                    </tr>
+                </thead>
+                <tbody class="bg-gray-300 divide-y divide-gray-200 text-center" id="tbody">
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+
+    <script src="../js/showdata.js"></script>
+</body>
+
+</html>
